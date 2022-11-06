@@ -1,0 +1,93 @@
+<div class="Main" fxLayout="column">
+    <div class="box1">
+        <div>
+            <button class="heading" style="padding-right: 0px;">
+                <span routerLink="/home/books">Home /</span>
+
+            </button>
+
+            <button class="heading" style="padding-left: 3px;">
+                <span style="font-weight: bold;">Book</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="my-Cart">
+
+    </div>
+    <br>
+    <div class="Cart-Details">
+        <div style="display: flex;margin-top: 10px;" *ngIf="!Show || Show" (click)="onOpen()">
+            <h2 style="margin-left: 35px;">Customer Details</h2>
+
+            <button class="new-address"*ngIf="Show">
+                <span style="color:  #A03037;;">Add New Address</span>
+            </button>
+        </div>
+
+
+        <div class="Details" *ngIf="Show">
+            <div class="ttl">
+                <div style="display: grid;width: 252px; height: 52px;">
+                    <span style=" margin-left: 0px;">Full Name</span>
+                    <div class="input-field">
+                        <span></span>
+                    </div>
+
+                </div>
+                <div style="display: grid;width: 252px; height: 52px;margin-left: 10px;">
+                    <span style=" margin-left: 0px;">Mobile Number</span>
+                    <div class="input-field">
+                        <span></span>
+                    </div>
+
+                </div>
+            </div>
+            <div style="display: grid; margin-top: 10px;">
+                <span style="margin-left: 0px;">Address</span>
+                <div class="address">
+                    <span></span>
+                </div>
+
+            </div>
+            <div class="ttl">
+                <div style="display: grid; width: 252px; height: 52px;">
+                    <span style="margin-left: 6px;">City/Town</span>
+                    <div class="input-field">
+                        <span></span>
+                    </div>
+
+                </div>
+                <div style="display: grid;width: 252px; height: 52px;margin-left: 10px;">
+                    <span style="margin-left: 0px;">State</span>
+                    <div class="input-field">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div style="display: grid;margin-top: 10px;">
+                <span>Type</span>
+                <mat-radio-group aria-label="Select an option">
+                    <mat-radio-button value="1" >Home</mat-radio-button>
+                    <mat-radio-button value="2">Work</mat-radio-button>
+                    <mat-radio-button value="3">Other</mat-radio-button>
+    
+                  </mat-radio-group>
+            </div>
+
+        </div>
+        
+        <button class="continue"*ngIf="Show">
+            <span style="color:  #FFFFFF; width: 72px;height: 17px;font: normal normal medium 14px/17px Lato;">CONTINUE</span>
+        </button>
+    </div>
+    <br>
+    <div class="summery">
+        <div style="display: flex;margin-top: 10px;" *ngIf="!order || order" (click)="onOrder()">
+            <h2 style="margin-left: 35px;display: flex;width: 300px;">Order Summary</h2>
+        </div>
+        <button class="continue"*ngIf="order">
+            <span style="color:  #FFFFFF; width: 72px;height: 17px;font: normal normal medium 14px/17px Lato;">CHECKOUT</span>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,143 @@
+.start {
+    margin-top: 40px;
+}
+
+.Main {
+    display: flex;
+    flex-flow: wrap;
+    //flex-flow: column;
+    position: relative;
+    left: 10%;
+    width: 90%;
+    height: auto;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.top{
+    display:flex; 
+    position: relative;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 25px;
+}
+.container {
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 15px;
+}
+.sort{
+    width: 130px;
+    height: 20px;
+    border: 1px solid #F5F5F5;;
+}
+
+.box {
+    margin-top: 20px;
+    // padding: 12px;
+    width: 200px;
+    height: 275px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    opacity: 1;
+    justify-content: center center;
+    text-align: center center;
+}
+
+.name {
+    letter-spacing: .07272727em;
+    flex-flow: wrap;
+    display: grid;
+    width: 150px;
+    //font-family: Roboto, Arial, sans-serif;
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+
+}
+
+.price {
+    letter-spacing: .07272727em;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    justify-content: center center;
+}
+
+.book-image {
+    height: 150px;
+    margin-top: 11px;
+    border: none;
+    outline: none;
+    width: 100px;
+    background-color: #F5F5F5;
+
+}
+
+.img {
+    width: 200px;
+    height: 172px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+    //border: 1px solid red;
+    justify-content: center center;
+    text-align: center;
+}
+
+.txt {
+    width: 150px;
+    height: 75px;
+    margin: 15px;
+}
+
+.author {
+    text-align: left;
+    font: normal normal normal 8px/13px Roboto;
+    letter-spacing: 0px;
+    margin-top: 6px;
+    color: #878787;
+    opacity: 1;
+}
+
+.price {
+    text-align: left;
+    margin-top: 6px;
+    font: normal normal bold 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.rating {
+    width: 14px;
+    height: 13px;
+    text-align: center center;
+    justify-content: center center;
+    padding-top: -4px;
+    font: normal normal bold 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.rating-back {
+    background: #388E3C 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    margin-top: 6px;
+    opacity: 1;
+    width: 33px;
+    height: 16px;
+}
+
+.star {
+    width: 8px;
+    height: 7px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: #F5F5F5;
+}

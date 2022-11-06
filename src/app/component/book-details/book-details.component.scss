@@ -1,0 +1,149 @@
+.Main{
+    width: 970px;
+    //border: 2px solid black;
+    margin: auto;
+    margin-top: 25px;
+}
+.box1{
+    margin-left: 95px;
+}
+
+.heading{
+    border: none;
+    background-color: #fff;
+}
+.bookImg{
+    border: 2px solid lightgrey;
+}
+.bag{
+    border: none;
+    margin-left: 15px;
+    width: 40%;
+    height: 25px;
+    color: #fff;
+    background-color: #A03037;
+   text-align: center;
+}
+.wishList{
+    margin-left: 15px;
+    display: row;
+    border: rgba(221, 211, 211, 0.459);
+    width: 40%;
+    height: 25px;
+    color:#fff;
+    background-color:#333333;
+    text-align: center;
+}
+.txt{
+    font-size: 14px; 
+    margin-top: 5px;
+}
+.connect{
+    display: flex;
+    margin-top: 30px;
+}
+.quickView{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.details{
+    margin-left: 40px;
+    width:50%;
+}
+.card-title{
+    font-size: 20px; 
+    padding:10px;
+}
+
+.author{
+    font-size: 14px;
+    color:#878787;
+    margin-left: 10px;
+}
+.discountedprice{
+    margin-left:10px;
+    text-decoration: line-through;
+    color:rgb(53, 50, 50);
+}
+.price{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.rating {
+    width: 14px;
+    height: 13px;
+    text-align: center center;
+    justify-content: center center;
+    padding-top: -4px;
+    font: normal normal bold 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.rating-back {
+    background: #388E3C 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    opacity: 1;
+    width: 33px;
+    height: 16px;
+}
+
+.star {
+    width: 8px;
+    height: 7px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: #F5F5F5;
+}
+.quantity{
+    width: 14px;
+    height: 13px;
+    color:#878787;
+}
+.card-content{
+    margin-top: 20px;
+    font-size: 15px;
+    color:#878787;
+    min-width:20px;
+    margin-left: 11px;
+}
+.bookInfo{
+    border-bottom: groove;
+    border-top: groove;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.para{
+   color:  #373434;
+   font-size: smaller;
+}
+.sub{
+    border: none;
+    width: 50px;
+    font-size: smaller;
+    color: #fff;
+    background-color: rgb(29, 46, 126);
+    border-radius: 2px 2px 2px 2px;
+    margin-left: 369px;
+    height: 19px;
+    margin-bottom: 10px;
+}
+.oveRate{
+    background-color: #F5F5F5;
+    display: grid;
+}
+.review{
+    height: 60px;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    
+}

@@ -1,0 +1,111 @@
+.component {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(183, 186, 186);
+    height: 100%;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+
+}
+
+
+input{
+    height: 36px;
+    border: solid 1px black;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.side-Container{
+    width: 312px;
+    height: 391px;
+    //border: 2px solid red;
+    background-color: #F5F5F5;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 2px 2px 2px 2px rgb(163, 163, 163);
+    text-align: -webkit-center;;
+}
+
+.img {
+    width: 250px;
+    height: 300px;
+    //border: solid 1px blue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+.input-field{
+    height: 30px;
+    width: 250px;
+}
+
+.heading{
+    width: 50%;
+    border: none;
+    background-color: #fff;
+
+}
+
+.Details{
+    display: flex;
+    flex-direction:column;
+    margin-top: 8px;
+    place-items: center;
+}
+
+
+.title {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+
+}
+
+.container{
+    // border: solid rgb(132, 22, 206) 2px;
+    width: 389px;
+    height: 425px;
+    background-color: #fff;
+    box-shadow: 2px 2px 16px 2px rgb(163, 163, 163);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.login-primary{
+    width: 260px;
+    height: 41px;
+    color: #fff;
+    background-color: rgb(165, 29, 29);
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    margin-top: 35px;
+    
+}
+
+.facebook{
+    border: none;
+    width: 40%;
+    height: 42px;
+    color: #fff;
+    background-color: rgb(29, 46, 126);
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+
+.google{
+    border: rgba(221, 211, 211, 0.459);
+    width: 40%;
+    height: 42px;
+    color:black;
+    background-color: rgba(221, 211, 211, 0.459);
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 13px;
+}
+
+.connect{
+    margin-block: 30px;
+    text-align: -webkit-center
+}

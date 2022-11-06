@@ -1,41 +1,63 @@
 <div class="main-component" fxLayoutAlign="center center">
-
-    <div class="form-container" fxLayout="row">
-        <div class="signup">
-            <div fxLayout="row">
-                <div class="heading">
-                    <h3> LOGIN </h3>
-                </div>
-
-                <div class="heading">
-                    <h3>SIGNUP</h3>
-                </div>
-            </div>
-            <div>
-                <label>Full Name</label>
-                <mat-form-field class="input" appearance="fill" class="InputField">
-                    <input matInput formControlName="FullName">
-                </mat-form-field>
-            </div>
-            <div>
-                <label>Email Id</label>
-                <mat-form-field class="input" appearance="fill" class="InputField">
-                    <input matInput formControlName="EmailId">
-                </mat-form-field>
-            </div>
-            <div>
-                <label>Password</label>
-                <mat-form-field class="input" appearance="fill" class="InputField">
-                    <input matInput formControlName="Password">
-                    
-                </mat-form-field>
-            </div>
-            <div>
-                <label>Mobile Number</label>
-                <mat-form-field class="input" appearance="fill" class="InputField">
-                    <input matInput formControlName="MobileNumber">
-                </mat-form-field>
-            </div>
+    <div class="side-Container">
+        <div class="img">
+            <img style="width:245px ; border-radius: 50%;margin-bottom: 20px ;" src="../../../assets/2766594.png" alt="">
+            <h2> ONLINE BOOK SHOPPING </h2>
         </div>
     </div>
+
+    <div class="form-container" fxLayout="row">
+        <div class="signup-container">
+            <div>
+                <button class="heading" routerLink="/login">
+                    <h2> LOGIN </h2>
+                </button>
+
+                <button class="heading">
+                    <h2>SIGNUP</h2>
+                </button>
+            </div>
+
+            <form [formGroup]="registerForm">
+                <div fxLayout="column" fxLayoutAlign="space-between">
+                    <div class="Details">
+                        <span style="place-self: normal;margin-left: 26px;">Full name:</span>
+
+                        <input matInput type="text" class="input-field" formControlName="fullName">
+                        <!-- <mat-error>Enter full name</mat-error> -->
+                       
+                    </div>
+                    <div class="Details">
+                        <span style="place-self: normal;margin-left: 26px;">Email:</span>
+
+                        <input matInput type="text" class="input-field" formControlName="email">
+                        <!-- <mat-error>Enter correct Email</mat-error> -->
+
+                    </div>
+                    <div class="Details">
+                        <span style="place-self: normal;margin-left: 26px;">Password:</span>
+
+                        <input matInput type="text" class="input-field" formControlName="password">
+                        <!-- <mat-error>Enter correct password</mat-error> -->
+
+                    </div>
+                    <div class="Details">
+                        <span style="place-self: normal;margin-left: 26px;">Mobile Number:</span>
+
+                        <input matInput type="text" class="input-field" formControlName="phone">
+                        <!-- <mat-error>Enter correct Number</mat-error> -->
+
+                    </div>
+
+                    <div class="sign">
+                        <button class="signup-primary" (click)="onSubmit()">SIGN UP</button>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
 </div>
